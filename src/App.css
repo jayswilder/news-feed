@@ -1,0 +1,112 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: initial;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+i {
+  font-size: 10rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  padding: 15px;
+  color: white;
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+input {
+  padding: 5px;
+  font-size: 1rem;
+  font-style: italic;
+  width: 200px;
+  margin: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header p {
+  margin: 10px;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100px;
+  text-align: right;
+}
+
+.searchInput {
+  display: flex;
+}
+
+body {
+  background-color: #282c34;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.layout {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.margin-bottom {
+  margin: 20px;
+}
